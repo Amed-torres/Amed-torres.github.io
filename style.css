@@ -1,0 +1,134 @@
+body{
+    background-color: #9797975f;
+    font-family: sans-serif;
+    margin: 0;
+    padding: 0;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+h1 {
+    font-family: 'Comic Sans MS';
+    font-size: 48px;
+    text-align: center;
+}
+
+p {
+    margin: 35px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size:16px;
+    text-align: justify;
+}
+
+h2 {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 25px;
+    text-align: center;
+}
+table, tr, th, td {
+    margin: 35px auto;
+    border: 2px solid black;
+    border-collapse: collapse; 
+    width: 50%;
+}
+th, td {
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 12px;
+    text-align: center;
+}
+
+form {
+    width: 80%;
+    margin: 15px auto;
+    display: flex;
+    flex-direction: column;
+}
+
+label, input, textarea, button {
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 10px;
+    padding: 15px;  
+    border-radius: 8px solid black;
+}
+select{
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 10px;
+    padding: 55px;
+    border-radius: 5px ;
+    
+}
+
+button {
+    align-self: center;
+    width: 80px;
+    padding: 15px;
+    background-color:rgb(0, 132, 255);
+    border: none;
+    color: white;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+button:hover{
+    background-color: blue;
+    color: white;
+}
+
+#like-button {
+    font-size: 25px;
+    background-color: #c151;
+    color: #c42929;
+    border: none;
+    transition: 0.3s;
+}
+#like-button:hover{
+    color: red;
+}
+
+footer{
+    background-color: aliceblue;
+    color: #000000;
+    left: 10px;
+    margin: 25px;
+    padding: 10px 20px;
+    border-radius: 25px;
+    width:16%;
+    
+}
+
+/*modo oscuro*/
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    transition: background-color 0.3s, color 0.3s;
+  }
+  
+  body.light {
+    background-color: #ffffff;
+    color: #000000;
+  }
+  
+  body.dark {
+    background-color: #121212;
+    color: #ffffff;
+  }
+  
+  #tema {
+    position: fixed;
+    top: 10px;
+    right: 10px;
+    padding: 10px;
+    cursor: pointer;
+    border: none;
+    background-color: rgb(203, 221, 237);
+    font-size: 24px;
+    color: rgba(92, 92, 92, 0.831);
+    border-radius: 50%;
+    transition: color 0.3s, background-color 0.3s;
+  }
+  
+  #tema:hover {
+    background-color: rgba(0, 0, 0, 0.1);
+  }
+
